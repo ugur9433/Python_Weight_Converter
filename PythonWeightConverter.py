@@ -1,7 +1,8 @@
-#Python Weight Converter
+#Python Weight Converter V2.0
+# This program converts weight between kilograms and pounds.
 
-weight = float(input("Enter your weight:"))
-unit = input("Kilograms or Pound? (K/P): ")
+weight = float(input("Enter your weight in float format:"))
+unit = input("Kilograms or Pound? (K is for kgs, P is for Lbs.): ")
 
 if unit == "K" :
     weight = weight * 2.2205
